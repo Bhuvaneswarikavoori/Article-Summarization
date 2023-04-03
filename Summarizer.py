@@ -13,7 +13,7 @@ tokenizer = T5Tokenizer.from_pretrained(model_name, cache_dir=None)
 config = T5Config.from_pretrained(model_name, cache_dir=None)
 
 # Load and process data
-file_path = "/content/drive/MyDrive/Colab Notebooks/dataset"
+file_path = "./Datasets"
 
 def load_data(file_path):
     stories = []
